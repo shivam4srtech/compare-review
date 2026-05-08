@@ -149,7 +149,10 @@ export default function Header(){
                         </div>
                     </li>
                     <li className="flex items-center">
-                        <Link href={'/category'} className={`${defautNavClasses} ${pathname === "/categoryF" ? "active" : ''}`} >Category</Link>
+                        <Link href={'/category'} className={`${defautNavClasses} ${pathname === "/category" ? "active" : ''}`} >Category</Link>
+                    </li>
+                    <li className="flex items-center">
+                        <Link href={'/review'} className={`${defautNavClasses} ${pathname === "/review" ? "active" : ''}`} >Review</Link>
                     </li>
                 </ul>
                 <ResponsiveRender breakpoint={768}

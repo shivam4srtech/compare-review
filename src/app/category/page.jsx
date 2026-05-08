@@ -26,7 +26,7 @@ export default function CategoryPage() {
             <nav className="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-slate-400 mb-8">
               <Link href="/" className="hover:text-indigo-600">Home</Link>
               <span className="w-1 h-1 bg-slate-300 rounded-full" />
-              <span className="text-indigo-600">Health & Fitness</span>
+              <span className="text-indigo-600">Category</span>
             </nav>
 
             <h1 className="text-3xl md:text-5xl font-bold text-slate-900 leading-[1.1] mb-6">

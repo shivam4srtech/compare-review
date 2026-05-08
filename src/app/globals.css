@@ -12,10 +12,22 @@
     --foreground: #ededed;
   }
 }
+button{
+  cursor: pointer;
+}
 
 body {
   font-family: var(--font-poppins), sans-serif;
   min-width: 350px;
+}
+@theme {
+ 
+  
+  /* Brand Color Definition */
+  --color-brand: #5145F1;
+  --color-brand-accent: #0F172A;
+  --color-brand-mute: #EEF2FF; 
+  --color-brand-bg: #F8FAFC; 
 }
 
 /* header */

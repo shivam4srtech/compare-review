@@ -65,7 +65,7 @@ export default function CategoryGrid() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-2xl">
-            <h2 className="text-4xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">
+            <h2 className="text-2xl md:text-5xl font-black text-slate-900 mb-4 tracking-tight">
               Explore By <span className="text-indigo-600">Category</span>
             </h2>
             <p className="text-slate-500 text-lg font-medium leading-relaxed">

@@ -21,7 +21,7 @@ export default function Home() {
                   </span>
                 </div>
 
-                <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] mb-8 tracking-tight">
+                <h1 className="text-2xl md:text-6xl font-extrabold text-slate-900 leading-[1.1] md:mb-8 mb-4 tracking-tight">
                   The Gold Standard <br /> 
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500">
                     Of Product Curation
@@ -30,15 +30,15 @@ export default function Home() {
                 {/* Search: "Floating Island" Design */}
                 <div className="relative max-w-2xl group mb-8">
                   <div className="flex items-center bg-white shadow-[0_20px_50px_rgba(0,0,0,0.06)] border border-slate-100 rounded-2xl p-2 transition-all duration-300 group-focus-within:shadow-[0_20px_50px_rgba(79,70,229,0.1)] group-focus-within:border-indigo-200">
-                    <div className="pl-4 text-slate-400">
+                    <div className="md:pl-4 pl-0 text-slate-400">
                       <HiSearch size={22} />
                     </div>
                     <input 
                       type="text" 
                       placeholder="Search premium products..." 
-                      className="outline-[0] w-full bg-transparent border-none focus:ring-0 text-slate-800 placeholder-slate-400 px-4 py-4 text-lg"
+                      className="outline-[0] w-full bg-transparent border-none focus:ring-0 text-slate-800 placeholder-slate-400 md:px-4 md:py-4 p-2 md:text-lg text-[.8rem]"
                     />
-                    <button className="bg-slate-900 hover:bg-indigo-600 text-white font-semibold px-10 py-4 rounded-xl transition-all shadow-lg active:scale-95">
+                    <button className="bg-slate-900 hover:bg-indigo-600 text-white font-semibold md:px-10 md:py-4 p-4 rounded-xl transition-all shadow-lg active:scale-95">
                       Search
                     </button>
                   </div>
